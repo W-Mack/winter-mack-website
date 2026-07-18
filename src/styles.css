@@ -36,12 +36,14 @@ nav a {
 }
 
 #main-div hr {
+    width: 100vw;
     background-color: var(--textFgColor);
     border-color: var(--textFgColor);
     color: var(--textFgColor);
 }
 
 #main-div {
+    width: 100vw;
     padding: 250px 250px;
     background-color: var(--fgColor);
     color: var(--textFgColor);
@@ -119,7 +121,7 @@ nav a {
     }
     
     #img-div {
-        width: 30vw;
+        width: 40vw;
     }
 }
 
@@ -155,6 +157,6 @@ nav a {
     }
 
     #img-div {
-        width: 30vw;
+        width: 40vw;
     }
 }
