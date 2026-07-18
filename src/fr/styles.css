@@ -36,6 +36,7 @@ nav a {
 }
 
 #main-div hr {
+    width: 100vw;
     background-color: var(--textFgColor);
     border-color: var(--textFgColor);
     color: var(--textFgColor);
@@ -113,12 +114,13 @@ nav a {
     #main-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
+        text-align: center;
     }
 
     #resume {
         padding: 30px 30px;
     }
-
+    
     #img-div {
         width: 40vw;
     }
@@ -149,6 +151,7 @@ nav a {
     #main-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
+        text-align: center;
     }
 
     #resume {

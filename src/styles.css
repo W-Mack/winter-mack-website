@@ -114,6 +114,7 @@ nav a {
     #main-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
+        text-align: center;
     }
 
     #resume {
@@ -150,6 +151,7 @@ nav a {
     #main-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
+        text-align: center;
     }
 
     #resume {
