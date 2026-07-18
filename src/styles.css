@@ -41,11 +41,14 @@ nav a {
 }
 
 #main-div {
-    display: grid;
-    grid-template-columns: 30vw auto;
-    padding: 200px 200px;
+    padding: 250px 250px;
     background-color: var(--fgColor);
     color: var(--textFgColor);
+}
+
+#main-grid {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
 }
 
 #topbar #lang-div {
@@ -65,4 +68,9 @@ nav a {
     padding: 10px 10px;
     display: grid;
     grid-template-columns: 200px auto 200px;
+}
+
+#img-div {
+    text-align: center;
+    padding: 20px 20px;
 }
