@@ -1,0 +1,86 @@
+:root {
+    --bgColor: #ffffff;
+    --fgColor: #2754ce;
+    --textColor: #000000;
+    --textFgColor: #ffffff;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bgColor);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: var(--textColor);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1 .div-keyword {
+    font-size: 80px;
+}
+
+nav {
+    padding-left: 19vw;
+    padding-right: 19vw;
+    padding-top: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    color: var(--textFGColor);
+}
+
+#main-div hr {
+    background-color: var(--textFgColor);
+    border-color: var(--textFgColor);
+    color: var(--textFgColor);
+}
+
+#main-div {
+    padding: 250px 250px;
+    background-color: var(--fgColor);
+    color: var(--textFgColor);
+}
+
+#main-grid {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+}
+
+#topbar #lang-div {
+    text-align: right;
+    padding-top: 16px;
+}
+
+#lang-div a {
+    text-decoration: none;
+    color: var(--textFgColor);
+}
+
+#topbar {
+    background-color: var(--fgColor);
+    color: var(--textFgColor);
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+}
+
+#img-div {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#resume {
+    padding: 250px 250px;
+}
+
+#resume-img-div {
+    text-align: center;
+}
