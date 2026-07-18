@@ -120,6 +120,11 @@ nav a {
     #resume {
         padding: 30px 30px;
     }
+
+    nav a {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -152,5 +157,10 @@ nav a {
 
     #resume {
         padding: 30px 30px;
+    }
+
+    nav a {
+        padding-left: 6px;
+        padding-right: 6px;
     }
 }
