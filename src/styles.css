@@ -117,6 +117,10 @@ nav a {
     #resume {
         padding: 30px 30px;
     }
+    
+    #img-div {
+        width: 30vw;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -148,5 +152,9 @@ nav a {
 
     #resume {
         padding: 30px 30px;
+    }
+
+    #img-div {
+        width: 30vw;
     }
 }
