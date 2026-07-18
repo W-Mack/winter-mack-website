@@ -120,10 +120,6 @@ nav a {
     #resume {
         padding: 30px 30px;
     }
-    
-    #img-div {
-        width: 40vw;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -156,9 +152,5 @@ nav a {
 
     #resume {
         padding: 30px 30px;
-    }
-
-    #img-div {
-        width: 40vw;
     }
 }
