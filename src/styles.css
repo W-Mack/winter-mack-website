@@ -92,12 +92,13 @@ nav a {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h1 .div-keyword {
-        font-size: 50px;
+        font-size: 32px;
     }
+
 
     #topbar {
         grid-template-columns: auto;
@@ -105,7 +106,7 @@ nav a {
     }
 
     #main-div {
-        padding: 50px 50px;
+        padding: 30px 30px;
     }
 
     #main-grid {
@@ -114,7 +115,7 @@ nav a {
     }
 
     #resume {
-        padding: 50px 50px;
+        padding: 30px 30px;
     }
 }
 
@@ -124,11 +125,11 @@ nav a {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     h1 .div-keyword {
-        font-size: 50px;
+        font-size: 32px;
     }
 
     #topbar {
@@ -137,7 +138,7 @@ nav a {
     }
 
     #main-div {
-        padding: 50px 50px;
+        padding: 30px 30px;
     }
 
     #main-grid {
@@ -146,6 +147,6 @@ nav a {
     }
 
     #resume {
-        padding: 50px 50px;
+        padding: 30px 30px;
     }
 }
