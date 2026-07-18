@@ -85,3 +85,43 @@ nav a {
 #resume-img-div {
     text-align: center;
 }
+
+@media only screen and (orientation: portrait) {
+    #topbar {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    #main-div {
+        padding: 50px 50px;
+    }
+
+    #main-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    #resume {
+        padding: 50px 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #topbar {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    #main-div {
+        padding: 50px 50px;
+    }
+
+    #main-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    #resume {
+        padding: 50px 50px;
+    }
+}
