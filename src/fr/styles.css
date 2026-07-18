@@ -53,7 +53,7 @@ nav a {
 }
 
 #topbar #lang-div {
-    text-align: right;
+    text-align: center;
     padding-top: 16px;
 }
 
@@ -63,6 +63,7 @@ nav a {
 }
 
 #topbar {
+    width: 100vw;
     background-color: var(--fgColor);
     color: var(--textFgColor);
     text-align: center;
@@ -74,7 +75,7 @@ nav a {
 
 #img-div {
     text-align: center;
-    padding: 20px 20px;
+    padding: 40px 40px;
 }
 
 #resume {
