@@ -1,6 +1,6 @@
 :root {
     --bgColor: #ffffff;
-    --fgColor: #225dff;
+    --fgColor: #2754ce;
     --textColor: #000000;
     --textFgColor: #ffffff;
 }
@@ -11,4 +11,32 @@ body {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     color: var(--textColor);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 .div-keyword-major {
+    font-size: 90px;
+    text-decoration: underline;
+}
+
+h1 .div-keyword {
+    font-size: 70px;
+}
+
+#main-div {
+    padding: 200px 200px;
+    background-color: var(--fgColor);
+    color: var(--textFgColor);
+}
+
+#topbar {
+    color: var(--textFgColor);
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
 }
