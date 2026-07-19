@@ -88,6 +88,11 @@ nav a {
     text-align: center;
 }
 
+#other {
+    border-top: 2px solid var(--textColor);
+    padding: 250px 250px;
+}
+
 @media only screen and (orientation: portrait) {
     body {
         font-size: 12px;
@@ -101,6 +106,10 @@ nav a {
         font-size: 32px;
     }
 
+    #other {
+        padding: 30px 30px;
+    }
+ 
 
     #topbar {
         grid-template-columns: auto;
@@ -140,6 +149,10 @@ nav a {
         font-size: 32px;
     }
 
+    #other {
+        padding: 30px 30px;
+    }
+
     #topbar {
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
@@ -164,3 +177,4 @@ nav a {
         padding-right: 6px;
     }
 }
+
