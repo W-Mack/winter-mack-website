@@ -93,6 +93,25 @@ nav a {
     padding: 250px 250px;
 }
 
+#art-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.art-item {
+    border-radius: 8px;
+    margin: 10px 10px;
+    padding: 30px 30px;
+    background-color: var(--fgColor);
+    color: var(--textFgColor);
+}
+
+.art-item hr {
+    border-color: var(--textFgColor);
+    color: var(--textFgColor);
+    background-color: var(--textFgColor);
+}
+
 @media only screen and (orientation: portrait) {
     body {
         font-size: 12px;
@@ -104,6 +123,10 @@ nav a {
 
     h1 .div-keyword {
         font-size: 32px;
+    }
+
+    #art-grid {
+        grid-template-columns: 1fr;
     }
 
     #other {
@@ -147,6 +170,10 @@ nav a {
 
     h1 .div-keyword {
         font-size: 32px;
+    }
+
+    #art-grid {
+        grid-template-columns: 1fr;
     }
 
     #other {
